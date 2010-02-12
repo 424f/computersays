@@ -1,0 +1,16 @@
+#
+#  computersays.net
+#
+#  Copyright (c) 2010, Boris Bluntschli <boris@bluntschli.ch>
+#  Copyright (c) 2010, Daniel Gasienica <daniel@gasienica.ch>
+#  All rights reserved.
+#
+
+application: computer-says
+version: live
+runtime: python
+api_version: 1
+
+handlers:
+- url: .*
+  script: main.py
